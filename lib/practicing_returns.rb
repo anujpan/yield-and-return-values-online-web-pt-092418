@@ -5,11 +5,18 @@ def hello(array)
   collection = []
 
   while i < array.length
-    collection << yield(array[i])
+    # collection << yield(array[i])
+
+    shit(i)
     i += 1
   end
   
   collection
 end
+
+def shit(name)
+  puts "Hi, #{name}"
+end
+
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
