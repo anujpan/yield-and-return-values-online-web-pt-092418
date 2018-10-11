@@ -12,9 +12,5 @@ def hello(array)
   collection
 end
 
-def shit(name)
-  puts "Hi, #{name}"
-end
-
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
