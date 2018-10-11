@@ -6,7 +6,9 @@ def hello(array)
 
   while i < array.length
     # yield(array[i])
+    
     test(array[i])
+    
     i += 1
   end
   
