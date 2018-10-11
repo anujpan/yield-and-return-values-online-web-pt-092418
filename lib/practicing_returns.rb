@@ -5,8 +5,8 @@ def hello(array)
   collection = []
 
   while i < array.length
-    # yield(array[i])
-    test(array[i])
+    # collection.push(yield(array[i]))
+    # test(array[i])
     
     i += 1
   end
@@ -14,9 +14,9 @@ def hello(array)
   collection
 end
 
-def test(name)
-  puts "Hi, #{name}"
-end
+# def test(name)
+#   puts "Hi, #{name}"
+# end
 
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
