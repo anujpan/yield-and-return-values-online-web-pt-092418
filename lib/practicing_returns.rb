@@ -5,11 +5,12 @@ def hello(array)
   collection = []
 
   while i < array.length
-    collection << yield(array[i])
+    # collection << yield(array[i])
     i += 1
   end
   
   collection
 end
+
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
