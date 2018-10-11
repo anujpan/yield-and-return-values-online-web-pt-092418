@@ -15,9 +15,9 @@ def hello(array)
   collection
 end
 
-# def test(name)
-#   puts "Hi, #{name}"
-# end
+def test(name)
+  puts "Hi, #{name}"
+end
 
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
