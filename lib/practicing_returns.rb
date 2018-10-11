@@ -5,7 +5,8 @@ def hello(array)
   collection = []
 
   while i < array.length
-    yield(array[i])
+    # yield(array[i])
+    test(i)
     i += 1
   end
   
